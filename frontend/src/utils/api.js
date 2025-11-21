@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an axios instance with default config
 const api = axios.create({
-    baseURL: 'http://192.168.0.185:5000/api', // Using local IP for mobile access
+    baseURL: 'https://expense-tracker-backend-ytdq.onrender.com/api', // Using local IP for mobile access
     headers: {
         'Content-Type': 'application/json'
     }
